@@ -12,6 +12,7 @@ function submitForm(event) {
 `Name: ${data.get('name')}
 Brand / Company: ${data.get('brand') || '-'}
 Email: ${data.get('email')}
+Phone: ${data.get('phone')}
 Looking for: ${data.get('service')}
 
 Campaign brief:
